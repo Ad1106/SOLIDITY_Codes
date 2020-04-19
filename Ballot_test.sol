@@ -1,8 +1,10 @@
 pragma solidity >=0.4.22 <0.7.0;
+
 import "remix_tests.sol"; // this import is automatically injected by Remix.
 import "./3_Ballot.sol";
 
-contract BallotTest {
+contract BallotTest 
+{
    
     bytes32[] proposalNames;
    
